@@ -6,8 +6,12 @@
 
 
 body{
+    background-image: shake infinite;
     animation: scaleText 4s infinite;
-
+    background-position-y: -25px;
+    background-repeat: no-repeat;
+    background-image: url(snooopyv2.png);
+    image-rendering:optimizeQuality;
     background-color: rgb(0, 0, 0);
     font-family:  "Pixelify Sans", sans-serif;
 }
@@ -21,7 +25,7 @@ body img{
 
 h2{
     font-family:  "Pixelify Sans", sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.863);
     border-color: black;
     font-size: 60px;
     text-align: center;
@@ -39,10 +43,7 @@ h2{
     }
 }
 
-.title{
-    position: relative;
-    overflow: hidden;         
-}
+
 
 .container {
     display: flex;
